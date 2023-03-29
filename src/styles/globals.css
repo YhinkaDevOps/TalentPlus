@@ -1,13 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/17539719b4e0eb2d54284f9ecce700e1?family=Amazing+Kids);
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-}
+
 
 * {
   box-sizing: border-box;
@@ -15,5 +12,11 @@
   margin: 0;
 }
 
+.logo{
+font-family: "Amazing Kids", sans-serif;
+}
 
+.nav-list{
+font-family: 'Satoshi', sans-serif;                                              
+}
 
