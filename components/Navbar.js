@@ -10,33 +10,33 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" bg-[#004DB3] pb-4 pt-10 px-4 md:px-[10px] lg:px-[120px] md:pt-12 md:pb-12">
+    <nav className=" bg-[#004DB3]  pb-4 pt-10 px-4 md:px-[10px] lg:px-[120px] md:pt-10 md:pb-10">
       <div className="mx-auto ">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <span className="logo text-white flex items-center italics text-[19px] md:text-[32px] lg:text-[47px] hover:text-gray-300">
-              <Link href="/">Techtime</Link>
+              <Link href="/">TechTime</Link>
             </span>
           </div>
 
           <div className="hidden md:block">
-            <ul className="nav-list flex gap-x-6 items-center text-base font-medium">
-              <li className="text-white hover:text-gray-300">
+            <ul className="nav-list flex gap-x-6 items-center text-base ">
+              <li className="text-white font-medium hover:text-gray-300">
                 <Link href="#">Home</Link>
               </li>
-              <li className="text-[#AAC4E6] hover:text-white">
+              <li className="text-[#AAC4E6] font-medium hover:text-white">
                 <Link href="#">About</Link>
               </li>
-              <li className="text-[#AAC4E6] hover:text-white">
+              <li className="text-[#AAC4E6] font-medium hover:text-white">
                 <Link href="#">Courses</Link>
               </li>
-              <li className="text-[#AAC4E6] hover:text-white">
+              <li className="text-[#AAC4E6] font-medium hover:text-white">
                 <Link href="#">Testimonials</Link>
               </li>
-              <li className="text-[#AAC4E6] hover:text-white">
+              <li className="text-[#AAC4E6] font-medium hover:text-white">
                 <Link href="#">Community</Link>
               </li>
-              <button className="flex items-center py-4 px-8 rounded bg-white text-[#004DB3] hover:text-gray-300 ">
+              <button className="flex items-center py-4 px-8 rounded bg-white font-bold text-[#004DB3] hover:text-gray-300 ">
                 <Link href="#">Enroll Now</Link>
               </button>
             </ul>
