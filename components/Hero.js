@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex">
+          <div className="flex pb-[58px]">
             <Image src={Heroframes} alt="hero__frames" />
             <span className="ml-2 flex flex-col">
               <span className="hero-frame-text text-white font-bold  text-2xl">
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="basis-1/2">
-          <Image src={Heroimg} alt="Hero image" width={450} height={100} />
+          <Image src={Heroimg} alt="Hero image" width={550} height={150} />
         </div>
       </div>
     </div>
