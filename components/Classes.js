@@ -8,7 +8,7 @@ import Settings from "../public/assets/icons/settings_input_antenna.svg";
 
 const Classes = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#F8F9F6]">
       <div className="px-4 md:px-[10px] lg:px-[120px]">
         <div className="flex">
           <div className="basis-4/5 flex flex-col gap-y-6 pt-[146px]">
@@ -17,7 +17,7 @@ const Classes = () => {
                 <h1 className="class-header font-bold text-[56px] text-[#000F24]">
                   High quality video, audio & live classes
                 </h1>
-                <p className="class-text text-[#A1A1A1] text-base">
+                <p className="class-text text-[#A1A1A1] font-medium text-base">
                   High-defination video is video of higher resolution and
                   quality than standard
                   <br /> definition. while there’s no standard meaning for high
@@ -34,21 +34,21 @@ const Classes = () => {
             </div>
             <div className="class-types flex flex-col gap-y-6 font-bold font-base text-[#000F24]">
               <div className="flex items-center gap-x-6">
-                <div className="flex gap-x-4 py-4 pr-14 pl-6">
+                <div className="bg-white flex gap-x-4 py-4 pr-14 pl-6 rounded-lg">
                   <Image src={Volume} alt="volume_icon" />
                   <span>Audio Classes</span>
                 </div>
-                <div className="flex gap-x-4 py-4 pr-14 pl-6">
+                <div className="bg-white flex gap-x-4 py-4 pr-14 pl-6 rounded-lg">
                   <Image src={Settings} alt="settings_icon" />
                   <span>Live Classes</span>
                 </div>
               </div>
               <div className="flex items-center gap-x-6">
-                <div className="flex gap-x-4 py-4 pr-14 pl-6">
+                <div className="bg-white flex gap-x-4 py-4 pr-14 pl-6 rounded-lg">
                   <Image src={Autoplay} alt="autoplay_icon" />
                   <span> Recorded Classes</span>
                 </div>
-                <div className="flex gap-x-4 py-4 pr-14 pl-6">
+                <div className="bg-white flex gap-x-4 py-4 pr-14 pl-6 rounded-lg">
                   <Image src={Description} alt="description_icon" />
                   <span>50+ notes</span>
                 </div>
