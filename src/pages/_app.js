@@ -4,6 +4,7 @@ import Hero from "/components/Hero";
 import SocialPlatforms from "/components/SocialPlatforms";
 import Classes from "/components/Classes";
 import SectionFive from "/components/SectionFive";
+import SectionSix from "/components/SectionSix";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
       <SocialPlatforms />
       <Classes />
       <SectionFive />
+      <SectionSix />
       <Component {...pageProps} />
     </>
   );

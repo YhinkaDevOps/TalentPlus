@@ -9,7 +9,7 @@ import Education from "../public/assets/icons/cast-for-education.svg";
 const SectionFive = () => {
   return (
     <div className="min-h-screen bg-[#F8F9F6]">
-      <div className="px-4 md:px-[10px] lg:px-[120px] pt-[75px] pb-[65px] ">
+      <div className="px-4 md:px-[10px] lg:px-[120px] pt-[70px]">
         <div className="flex gap-x-[50px]">
           <div className="basis-[55%] flex flex-col gap-y-5">
             <div className="flex flex-col gap-y-4">
