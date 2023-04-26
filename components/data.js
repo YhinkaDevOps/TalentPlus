@@ -1,0 +1,45 @@
+export const data = [
+  {
+    id: 1,
+    name: "user_research",
+    Image: "/public/assets/images/user-research.svg",
+    type: "design",
+    rating: "(32.7k+)",
+    header: "Introduction to new marketing audience",
+  },
+  {
+    id: 2,
+    name: "new-marketing",
+    Image: "/public/assets/images/new-marketing.svg",
+    type: "marketing",
+    rating: "(8.7k+)",
+  },
+  {
+    id: 3,
+    name: "bootstrap",
+    Image: "/public/assets/images/bootstrap.svg",
+    type: "development",
+    rating: "(12.7k+)",
+  },
+  {
+    id: 4,
+    name: "code",
+    Image: "/public/assets/images/code.svg",
+    type: "development",
+    rating: "(32.7k+)",
+  },
+  {
+    id: 5,
+    name: "outroom-analysis",
+    Image: "/public/assets/images/outroom-analysis.svg",
+    type: "marketing",
+    rating: "(4.7k+)",
+  },
+  {
+    id: 6,
+    name: "marketing-analysis",
+    Image: "/public/assets/images/marketing-analysis.svg",
+    type: "marketing",
+    rating: "(15.7k+)",
+  },
+];

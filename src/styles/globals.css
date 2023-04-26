@@ -25,3 +25,7 @@ font-family: 'Satoshi', sans-serif;
 .hero-heading ,.class-header{
   font-family:'Clash Display', sans-serif;
 }
+
+.btn-bg{
+  background-color:rgba(30,93,206,0.2)
+}
